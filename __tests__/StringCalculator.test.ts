@@ -17,4 +17,9 @@ test('should return the number itself for a single number', () => {
     expect(calculator.add('1,2')).toBe(3);
   });
 
-  
+  // __tests__/StringCalculator.test.ts
+
+test('should return the sum of multiple comma-separated numbers', () => {
+  const calculator = new StringCalculator();
+  expect(calculator.add('1,2,3,4,5')).toBe(15);
+});
