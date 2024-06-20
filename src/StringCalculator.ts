@@ -5,8 +5,8 @@ export class StringCalculator {
       if (numbers === '') {
         return 0;
       }
-      //handles any amount of numbers
-      const numberArray = numbers.split(',').map(Number);
+      //Handle New Lines Between Numbers
+      const numberArray = numbers.split(/[\n,]/).map(Number);
       return numberArray.reduce((sum, num) => sum + num, 0); 
     }
 
