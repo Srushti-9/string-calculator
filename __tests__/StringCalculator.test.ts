@@ -11,4 +11,10 @@ test('should return the number itself for a single number', () => {
     const calculator = new StringCalculator();
     expect(calculator.add('1')).toBe(1);
   });
+
+  test('should return the sum of two comma-separated numbers', () => {
+    const calculator = new StringCalculator();
+    expect(calculator.add('1,2')).toBe(3);
+  });
+
   
