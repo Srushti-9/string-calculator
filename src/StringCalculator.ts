@@ -5,7 +5,8 @@ export class StringCalculator {
       if (numbers === '') {
         return 0;
       }
-      return 0; // This will be updated in future steps
+      return parseInt(numbers, 10);      
     }
+
   }
   
