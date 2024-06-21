@@ -8,17 +8,12 @@ This project implements a String Calculator using Test-Driven Development (TDD) 
 
 To get started with the String Calculator, follow these steps:
 
-### Prerequisites
-
-- Node.js installed on your local machine
-- Git for version control
-
 ### Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/Srushti-9/string-calculator.git
    cd your-repo
    ```
 
