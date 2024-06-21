@@ -14,7 +14,6 @@ To get started with the String Calculator, follow these steps:
 
    ```bash
    git clone https://github.com/Srushti-9/string-calculator.git
-   cd your-repo
    ```
 
 2. Install dependencies:
